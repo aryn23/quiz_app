@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🎉 Fun Quiz Challenge 🎉</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. Which planet is known as the Red Planet?</p>
+        <label><input type="radio" name="q1" value="a"> Earth</label><br>
+        <label><input type="radio" name="q1" value="b"> Mars</label><br>
+        <label><input type="radio" name="q1" value="c"> Venus</label><br>
+        <label><input type="radio" name="q1" value="d"> Jupiter</label>
+      </div>
+
+      <div class="question">
+        <p>2. Who wrote "Harry Potter"?</p>
+        <label><input type="radio" name="q2" value="a"> J.R.R. Tolkien</label><br>
+        <label><input type="radio" name="q2" value="b"> J.K. Rowling</label><br>
+        <label><input type="radio" name="q2" value="c"> George R.R. Martin</label><br>
+        <label><input type="radio" name="q2" value="d"> Stephen King</label>
+      </div>
+
+      <div class="question">
+        <p>3. What is the capital of Japan?</p>
+        <label><input type="radio" name="q3" value="a"> Beijing</label><br>
+        <label><input type="radio" name="q3" value="b"> Seoul</label><br>
+        <label><input type="radio" name="q3" value="c"> Tokyo</label><br>
+        <label><input type="radio" name="q3" value="d"> Bangkok</label>
+      </div>
+
+      <div class="question">
+        <p>4. Which gas do humans need to breathe in?</p>
+        <label><input type="radio" name="q4" value="a"> Oxygen</label><br>
+        <label><input type="radio" name="q4" value="b"> Carbon Dioxide</label><br>
+        <label><input type="radio" name="q4" value="c"> Nitrogen</label><br>
+        <label><input type="radio" name="q4" value="d"> Hydrogen</label>
+      </div>
+
+      <div class="question">
+        <p>5. Which is the largest mammal?</p>
+        <label><input type="radio" name="q5" value="a"> Elephant</label><br>
+        <label><input type="radio" name="q5" value="b"> Blue Whale</label><br>
+        <label><input type="radio" name="q5" value="c"> Giraffe</label><br>
+        <label><input type="radio" name="q5" value="d"> Shark</label>
+      </div>
+
+      <button type="button" onclick="submitQuiz()">🚀 Submit Answers</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
